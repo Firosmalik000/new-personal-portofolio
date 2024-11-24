@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Experience from './pages/Experience';
 import Project from './pages/Project';
+import Skill from './pages/Skill';
 
 function App() {
   const [pageSelect, setPageSelect] = useState('Home');
@@ -15,7 +16,8 @@ function App() {
       {pageSelect === 'About' && <About />}
       {pageSelect === 'Experience' && <Experience />}
       {pageSelect === 'Project' && <Project />}
-      {pageSelect === 'Contact' && <Contact />}
+      {pageSelect === 'Skill' && <Skill />}
+      {pageSelect === 'Contact' && <Contact />}....0.0..
     </div>
   );
 }
